@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/863029ac60.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/nav-style.css">
+    <title>Drop down menu bar</title>
+</head>
+<body>
+
+    <div class="mobile-menu">
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="/nav-bar.html">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Contacts</a>
+          <a href="#">Location</a>
+        </div>
+    </div>
+    <span class="open" onclick="openNav()">&#9776;</span>
+    </div>
+    
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <a href="/nav-bar.html"><i class="fab fa-500px"></i></a>
+        </div>
+        <div class="menu">
+            <ul class="list-menu">
+              <li><a href="/nav-bar.html">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contacts</a></li>
+              <li><a href="#">Location</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <script src="/nav.js"></script>
+
+</body>
+</html>
